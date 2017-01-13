@@ -2,17 +2,113 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="index.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>segayan3 | ポートフォリオ</title>
+    <meta name="descriptoin" content="segayan3のWebアプリポートフォリオ">
+    <meta name="keywords" content="ポートフォリオ, html ,css, ruby, ruby on rails">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="space">
+      <h1>segayan3のポートフォリオ</h1>
+      <div id="logo">
+        <img src="IMG_5364.JPG" alt="">
+        <h2>segayan3</h2>
+      </div>
+      <div id="introduction">
+        <h3 class="space">自己紹介</h3>
+        <p class="space">奈良県大和郡山市出身。ベビー服のEC会社を経営しています。</p>
+        <p class="space">やりたい新規事業があり、プログラマーが足りないので<span class="red">Ruby on Rails</span>と<span class="red">iPhoneアプリ開発</span>を学ぶことにしました。</p>
+        <p class="space">このポートフォリオページはサンプルで作っているものです。</p>
+        <br>
+        <h3 class="space">リンク</h3>
+        <p class="space"><a href="https://github.com/segayan3" target="_blank">私のGithubページです。</a></p>
+      </div>
+    </header>
+    <div class="container space">
+      <section>
+        <div id="msgb">
+          <h3>メッセージボード</h3>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>サイトイメージ</th>
+                <th>URL</th>
+                <th>サービス内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="http://babychu.jp"><img src="site_img.png" alt="メッセージボード"></a></td>
+                <td><a href="http://babychu.jp">http://babychu.jp</a></td>
+                <td><p>メッセージボードサービスです。</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="twc">
+          <h3>Twitterクローン</h3>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>サイトイメージ</th>
+                <th>URL</th>
+                <th>サービス内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="http://babychu.jp"><img src="site_img.png" alt="Twitterクローン"></a></td>
+                <td><a href="http://babychu.jp">http://babychu.jp</a></td>
+                <td><p>Twitterクローンサービスです。</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="mnl">
+          <h3>モノリスト</h3>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>サイトイメージ</th>
+                <th>URL</th>
+                <th>サービス内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="http://babychu.jp"><img src="site_img.png" alt="モノリストです。"></a></td>
+                <td><a href="http://babychu.jp">http://babychu.jp</a></td>
+                <td><p>モノリストです。</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="org">
+          <h3>オリジナルサービス</h3>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>サイトイメージ</th>
+                <th>URL</th>
+                <th>サービス内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="http://babychu.jp"><img src="site_img.png" alt="オリジナルサービスです。"></a></td>
+                <td><a href="http://babychu.jp">http://babychu.jp</a></td>
+                <td><p>オリジナルサービスです。</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2017 segayan3</p>
+    </footer>
   </body>
 </html>
